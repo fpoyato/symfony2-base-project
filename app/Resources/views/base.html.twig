@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+
+        {% stylesheets  '@bootstrap_less' filter='lessphp, cssembed, ?yui_css' combine=true output='css/bootstrap.css' %}
+        <link href="{{ asset_url }}" type="text/css" rel="stylesheet"/>
+        {% endstylesheets %}
+
+        {% block stylesheets %}{% endblock %}
+
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
+        <!--[if lt IE 9]>
+        {% javascripts '@ielt9_js' filter='?yui_js' output='js/ielt9.js' %}
+        <script src="{{ asset_url }}"></script>
+        {% endjavascripts %}
+        <![endif]-->
+
+    </head>
+
+    <body>
+
+        {% block body %}{% endblock %}
+
+        {% javascripts '@jquery_js' '@bootstrap_js' filter='?yui_js' combine=true output='js/jquery_bootstrap.js' %}
+        <script src="{{ asset_url }}"></script>
+        {% endjavascripts %}
+
+        {% block javascripts %}{% endblock %}
+
+    </body>
+
+</html>
