@@ -21,6 +21,7 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "doctrine/doctrine-fixtures-bundle": "dev-master",
         "doctrine/data-fixtures": "dev-master",
+        "jd/draggy": "0.9",
         "leafo/lessphp": "0.4.*",
         "twitter/bootstrap": "3.0.*",
         "packagist/cssembed-bin": "dev-master",
