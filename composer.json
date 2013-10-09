@@ -25,7 +25,8 @@
         "leafo/lessphp": "0.4.*",
         "twitter/bootstrap": "3.0.*",
         "packagist/cssembed-bin": "dev-master",
-        "packagist/yuicompressor-bin": "dev-master"
+        "packagist/yuicompressor-bin": "dev-master",
+        "fpoyato/templates": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [
