@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "619b1e468488b64c5ad352118dede588",
+    "hash": "ab65df04c94823c0f910539efc8c88e5",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -766,6 +766,43 @@
                 "parameters management"
             ],
             "time": "2013-04-06 17:15:44"
+        },
+        {
+            "name": "jd/draggy",
+            "version": "v0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/j-d/draggy.git",
+                "reference": "dfd9cb71fa3121b2b454494a101100e16544ff8f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/j-d/draggy/zipball/dfd9cb71fa3121b2b454494a101100e16544ff8f",
+                "reference": "dfd9cb71fa3121b2b454494a101100e16544ff8f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Draggy": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jose Diaz",
+                    "email": "jose@diazangulo.com",
+                    "homepage": "http://www.diazangulo.com"
+                }
+            ],
+            "description": "Draggy project",
+            "time": "2013-07-07 12:52:59"
         },
         {
             "name": "jdorn/sql-formatter",
