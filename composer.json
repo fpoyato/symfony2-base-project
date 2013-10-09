@@ -44,7 +44,8 @@
         ]
     },
     "config": {
-        "bin-dir": "bin"
+        "bin-dir": "bin",
+        "form-template-dir": "app/Resources/views/Form"
     },
     "minimum-stability": "stable",
     "extra": {
