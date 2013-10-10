@@ -8,4 +8,3 @@ This package includes:
 - Draggy v0.9
 - Doctrine Data Fixtures Bundle
 - Draggy Template and Symfony2 Form Template for bootstrap
-- Vagrant configured to run in Precise64 box
