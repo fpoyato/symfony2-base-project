@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "ab65df04c94823c0f910539efc8c88e5",
+    "hash": "c5b3a75e34828d6b278a60e6e819c90d",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -716,6 +716,45 @@
                 "orm"
             ],
             "time": "2013-05-11 07:51:12"
+        },
+        {
+            "name": "fpoyato/templates",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fpoyato/templates.git",
+                "reference": "0322e427a900b430548f759c75052f55b87ad254"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fpoyato/templates/zipball/0322e427a900b430548f759c75052f55b87ad254",
+                "reference": "0322e427a900b430548f759c75052f55b87ad254",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "symfony/yaml": "2.3.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Templates": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fernando Poyato",
+                    "email": "ferpoyato@gmail.com",
+                    "homepage": "http://www.caecom.es",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Templates",
+            "time": "2013-10-09 23:07:56"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -1818,7 +1857,8 @@
         "doctrine/doctrine-fixtures-bundle": 20,
         "doctrine/data-fixtures": 20,
         "packagist/cssembed-bin": 20,
-        "packagist/yuicompressor-bin": 20
+        "packagist/yuicompressor-bin": 20,
+        "fpoyato/templates": 20
     },
     "platform": {
         "php": ">=5.3.3"

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<draggy>
+	<project>
+		<language>PHP</language>
+		<description>Symfony2 Base Project</description>
+		<orm>Doctrine2</orm>
+		<framework>Symfony2</framework>
+	</project>
+	<loose>
+	</loose>
+	<relationships>
+	</relationships>
+	<autocode>
+		<base>true</base>
+		<overwrite>true</overwrite>
+		<delete-unmapped>true</delete-unmapped>
+		<validation>true</validation>
+		<namespace>Caecom\DemoBundle</namespace>
+		<templates>
+			<entity>Draggy\Autocode\Templates\PHP\Symfony2\Doctrine2\Entity4</entity>
+			<entity-base>Templates\Draggy\EntityTemplate</entity-base>
+			<repository/>
+			<form/>
+			<form-base/>
+			<controller/>
+			<fixtures/>
+			<routes/>
+			<routes-routing/>
+			<crud-create-twig/>
+			<crud-read-twig/>
+			<crud-update-twig/>
+		</templates>
+	</autocode>
+</draggy>
