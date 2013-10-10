@@ -1,8 +1,8 @@
 {
-    "name": "fpoyato/caecom-symfony2-skeleton",
+    "name": "fpoyato/symfony2-base-project",
     "license": "MIT",
     "type": "project",
-    "description": "CAECOM Symfony2 base project",
+    "description": "Symfony2 Base Project",
     "autoload": {
         "psr-0": { "": "src/" }
     },
